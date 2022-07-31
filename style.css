@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full_body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.moving_car {
+    width: 100%;
+    height: 99%;
+}
+
+#traffic_signal  {
+    width: 120px;
+    height: 320px;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 300px;
+    float: right;
+    margin: 100px 150px 0 0;
+    background: #181d21;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+.light {
+    background-color: rgb(45,47,49);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+body {
+    background-image: url(images/yellow.gif);
+    background-size: cover;
+}
